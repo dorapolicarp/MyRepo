@@ -41,7 +41,7 @@ public class P3_2aParser extends Parser {
 		try {
 			InputStream io = new FileInputStream(fileName);
 			wb = new XSSFWorkbook(io);
-			XSSFSheet sheet = wb.getSheet("3.6a");
+			XSSFSheet sheet = wb.getSheet("3.2a");
 			Integer nrCrt;
 			for (Iterator<Row> it = sheet.rowIterator(); it.hasNext();) {
 				Row row = (XSSFRow) it.next();
