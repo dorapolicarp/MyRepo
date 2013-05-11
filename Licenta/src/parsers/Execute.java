@@ -20,6 +20,15 @@ public class Execute {
 		Parser p3_5bParser = new P3_5bParser("src//1.xlsx");
 		Parser p3_5aParser = new P3_5aParser("src//1.xlsx");
 		Parser p3_4bParser = new P3_4bParser("src//1.xlsx");
+		Parser p3_4aParser = new P3_4aParser("src//1.xlsx");
+		Parser p3_3bParser = new P3_3bParser("src//1.xlsx");
+		Parser p3_3aParser = new P3_3aParser("src//1.xlsx");
+		Parser p3_2bParser = new P3_2bParser("src//1.xlsx");
+		Parser p3_2aParser = new P3_2aParser("src//1.xlsx");
+		Parser p3_1bParser = new P3_1bParser("src//1.xlsx");
+		Parser p3_1aParser = new P3_1aParser("src//1.xlsx");
+		Parser p2_7Parser = new P2_7Parser("src//1.xlsx");
+		
 		ArrayList<Field> p4_3FieldsList;
 		ArrayList<Field> p4_2bFieldsList;
 		ArrayList<Field> p4_2aFieldsList;
